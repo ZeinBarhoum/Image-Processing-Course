@@ -1,0 +1,15 @@
+﻿Build started 3/10/2020 11:24:22 PM.
+     1>Project "C:\Users\zein_pc\Documents\Visual Studio 2015\Projects\Assignment1_filters\Assignment1_filters\Assignment1_filters.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /IC:\opencv\build\include /ZI /nologo /W3 /WX- /Od /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"x64\Debug\\" /Fd"x64\Debug\vc140.pdb" /Gd /TP /errorReport:prompt Filter.cpp
+         Filter.cpp
+     1>c:\users\zein_pc\documents\visual studio 2015\projects\assignment1_filters\assignment1_filters\filter.cpp(23): warning C4244: '+=': conversion from 'double' to 'int', possible loss of data
+     1>c:\users\zein_pc\documents\visual studio 2015\projects\assignment1_filters\assignment1_filters\filter.cpp(65): warning C4244: '=': conversion from 'double' to 'uint8_t', possible loss of data
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\zein_pc\Documents\Visual Studio 2015\Projects\Assignment1_filters\x64\Debug\Assignment1_filters.exe" /INCREMENTAL /NOLOGO /LIBPATH:C:\opencv\build\x64\vc14\lib opencv_world310d.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:\Users\zein_pc\Documents\Visual Studio 2015\Projects\Assignment1_filters\x64\Debug\Assignment1_filters.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\zein_pc\Documents\Visual Studio 2015\Projects\Assignment1_filters\x64\Debug\Assignment1_filters.lib" /MACHINE:X64 x64\Debug\Filter.obj
+         Assignment1_filters.vcxproj -> C:\Users\zein_pc\Documents\Visual Studio 2015\Projects\Assignment1_filters\x64\Debug\Assignment1_filters.exe
+     1>Done Building Project "C:\Users\zein_pc\Documents\Visual Studio 2015\Projects\Assignment1_filters\Assignment1_filters\Assignment1_filters.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:05.58
